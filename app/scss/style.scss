@@ -253,7 +253,25 @@
     }
 }
 
-
+.project{
+    text-align: center;
+    background-size: cover;
+    background-position:center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+    &__title{
+        max-width: 470px;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        color: #fff;
+        font-size: 30px;
+        line-height: 44px;
+    }
+    &__btn{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
 
 
 
