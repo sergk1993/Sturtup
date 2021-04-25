@@ -9,5 +9,11 @@ $('.about__slider').slick({
 
 var mixer = mixitup('.works__inner');
 mixer.filter('.all');
+
+$('.company__inner').slick({
+    arrows:false,
+    dots:true,
+    fade:true
+});
   
 });

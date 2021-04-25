@@ -346,7 +346,53 @@
 }
 
 
-
+.company{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f8f8f8;
+    margin-bottom: 100px;
+    &__inner{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    &__info{
+        max-width: 790px;
+        margin: 0 auto;
+    }
+    &__text{
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    &__title{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .slick-dots li{
+        display: inline-flex;
+        padding: 0 10px;
+    }
+    .slick-dots button{
+        background-color: #ddd;
+        border-radius: 50%;
+        font-size: 0;
+        width: 13px;
+        height: 13px;
+        border: none;
+        outline: none;
+    }
+    .slick-active button{
+        background-color: #c0301c;
+    }
+}
 
 
 
