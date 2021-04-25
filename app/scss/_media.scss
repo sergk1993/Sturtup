@@ -1,5 +1,7 @@
-@media(max-width:1050px){
-
+@media(max-width:1150px){
+    .about__box{
+        max-width: 100%;
+    }
 }
 
 @media(max-width:700px){
@@ -45,5 +47,7 @@
 }
 
 @media(max-width:500px){
-
+    .service{
+        margin-top: 50px;
+    }
 }
