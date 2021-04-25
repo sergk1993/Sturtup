@@ -2,6 +2,25 @@
     .about__box{
         max-width: 100%;
     }
+    .blog__boxup{
+        display: block;
+    }
+    .blog__info{
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .blog__info-img{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .blog__boxsub{
+        display: block;
+    }
+    .blog__infosub{
+        margin-left: 0;
+        max-width: 100%;
+    }
+    
 }
 
 @media(max-width:700px){
@@ -59,4 +78,11 @@
     .works{
         margin: 50px 0;
     }
+    .blog__boxsub{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:400px){
+
 }

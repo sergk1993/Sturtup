@@ -303,8 +303,10 @@
         border-bottom: 1px solid #ddd;
         margin-bottom: 30px;
     }
-    &__infoup-img{
-        width: 460px;
+    &__info-img{
+        object-fit: cover;
+        object-position: center;
+        width: 420px;
         height: 320px;
         object-fit: cover;
         object-position: center;
