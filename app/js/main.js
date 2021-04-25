@@ -7,5 +7,7 @@ $('.about__slider').slick({
     nextArrow:' <button class="about__arrow about__arrow-next"><img src="images/about-arrow-next.svg" alt=""></button>',
 });
 
+var mixer = mixitup('.works__inner');
+mixer.filter('.all');
   
 });
