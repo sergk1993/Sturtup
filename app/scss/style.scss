@@ -61,7 +61,39 @@
 }
 
 
-
+.service{
+        margin-top: 100px;
+    &__text{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__box{
+        text-align: center;
+        max-width: 350px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    &__box-img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 20px;
+    }
+    &__box-title{
+        text-transform: uppercase;
+        @extend %msemibold;
+        margin-bottom: 20px;
+    }
+    &__box-text{
+        margin-bottom: 100px;
+    }
+}
 
 
 
