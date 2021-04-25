@@ -41,12 +41,13 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
 }
 .title{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
     text-align: center;
     @extend %msemibold;
     padding-bottom: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
     position: relative;
     &::after{
         content: "";
