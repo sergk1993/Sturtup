@@ -15,5 +15,9 @@ $('.company__inner').slick({
     dots:true,
     fade:true
 });
+
+    $('.header__button').on('click', function(){
+        $('.menu__list').toggleClass('menu__list--active')
+    });
   
 });

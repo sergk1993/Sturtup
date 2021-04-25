@@ -17,6 +17,25 @@
         line-height: 36px;
         @extend %mbold; 
     }
+    &__button{
+        border: none;
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #fff;
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index: 5;
+        display: none;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            left: 0;
+        }
+    }
     &__info{
         text-align: center;
     }
