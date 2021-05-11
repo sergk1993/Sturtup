@@ -39,11 +39,14 @@ mixer.filter('.all');
 $('.company__inner').slick({
     arrows:false,
     dots:true,
-    fade:true
+    fade:true,
+    autoplay:true
 });
 
     $('.header__button').on('click', function(){
         $('.menu__list').toggleClass('menu__list--active')
     });
   
+    new WOW().init();
+
 });

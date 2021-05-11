@@ -39,6 +39,11 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid #fff;
     text-transform: uppercase;
     color: #fff;
+    transition: all .3s;
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
 }
 .title{
     font-size: 20px;

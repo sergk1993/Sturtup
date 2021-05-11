@@ -68,7 +68,7 @@
         left: 0;
         right: 0;
         top: 0;
-        background-color: rgb(18, 17, 119);
+        background-color: #050531;
         padding-top: 100px;
         padding-bottom: 50px;
         transform: translateY(-900px);
@@ -92,6 +92,8 @@
         display: block;
         order: 1;
     }
+
+   
     .menu__list--active{
         transform: translateY(0);
     }
@@ -124,7 +126,7 @@
    
 }
 
-@media(max-height:350px){
+@media(max-height:320px){
     .menu__list{
         flex-wrap: wrap;
         padding-top: 50px;
